@@ -1,6 +1,6 @@
 package excelFilesCompare;
 
-public class excelMain 
+public class ExcelFilesCompare 
 {
 
 	public static void main(String[] args) 

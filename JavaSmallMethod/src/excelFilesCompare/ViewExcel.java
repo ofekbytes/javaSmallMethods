@@ -265,7 +265,7 @@ public class ViewExcel extends JFrame
 
 		
 		lblStatus = new JLabel("-- Please Wait --");
-		lblStatus.setIcon(new ImageIcon(ViewExcel.class.getResource("/media/loader.gif")));
+		//lblStatus.setIcon(new ImageIcon(ViewExcel.class.getResource("/media/loader.gif")));
 		lblStatus.setForeground(Color.red);
 		lblStatus.setBounds(170, 448, 280, 40);
 		lblStatus.setFont(new Font("Dialog", Font.BOLD, 12));
