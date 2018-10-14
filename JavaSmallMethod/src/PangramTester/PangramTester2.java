@@ -14,15 +14,15 @@ public class PangramTester2 {
 
 		  final TreeSet alphabetTreeSet = new TreeSet();
 
-		  // toLowerCase
+		  // toLowerCase - to the character the user enter
 		  final char[] sentenceChar = sentence.toLowerCase().toCharArray();
 
-		  // char enterd list
+		  // char enterd list - after lowercase.
 		  for (final char letter : sentenceChar) {
 		   alphabetTreeSet.add(letter);
 		  }
 		  
-		  // loop a-z and check if latter entered not exit, and make a list (in order)
+		  // loop a-z and check if latter entered not exit, add it to a list (in order)
 		  final StringBuilder missingCharBuilder = new StringBuilder();
 		  for (final char character : alphabetArray) {
 		   if (!alphabetTreeSet.contains(character)) {
