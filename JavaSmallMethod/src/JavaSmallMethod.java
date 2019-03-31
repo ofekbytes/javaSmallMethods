@@ -1,4 +1,5 @@
 import cardGame.cardWar;
+import cardGame.cardGameOne.CardGameOne;
 
 public class JavaSmallMethod 
 {
@@ -7,6 +8,9 @@ public class JavaSmallMethod
 	{
 		System.out.println("Java Small Method");
 		cardWar cw = new cardWar();
+		
+		CardGameOne cardGameOne = new CardGameOne();
+		
 	}
 
 	public static void main(String[] args) 

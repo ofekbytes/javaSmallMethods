@@ -27,7 +27,6 @@ public class cardWar3 {
 			TotalGameRounds = player2.length();
 		}
 	}
-	
 
 	private int getTotalGameRounds() {
 		return TotalGameRounds;

@@ -15,7 +15,6 @@ public class cardWar2 {
 	private static int playerTwoTotalScore = 0;
 	private static int TotalGameRounds = 0;
 	
-	
 	//total game - find the minimum card available. 
 	private void setTotalGameRounds(String player1, String player2) {
 		
